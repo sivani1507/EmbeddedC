@@ -6,12 +6,11 @@
 int main(void)
 {
 
-   DDRB|=(1<<PB0);
-    // Insert code
-  DDRD&=~(1<<PD2);
-  PORTD|=(1<<PD2);
-  DDRD&=~(1<<PD1);
-  PORTD|=(1<<PD1);
+   DDRB|=(1<<PB0);// SET B0=1
+  DDRD&=~(1<<PD2);// CLEAR BIT
+  PORTD|=(1<<PD2);// SET BIT
+  DDRD&=~(1<<PD1);// CLEAR BIT
+  PORTD|=(1<<PD1);// SET BIT
 
     while(1)
     {
