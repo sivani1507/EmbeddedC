@@ -8,14 +8,15 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#ifndef __LED_H_
-#define __LED_H_
+#ifndef __ACTIVITY1_H__
+#define __ACTIVITY1_H__
 /**
  * @brief Include files
  * 
  */
-#inlude<avr/io.h>
-#include "led.h"
+#include<avr/io.h>
+#include<util/delay.h>
+#include "activity1.h"
 /**
  * @brief Macro definitions
  * 
