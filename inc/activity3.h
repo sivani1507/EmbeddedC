@@ -1,5 +1,5 @@
 /**
- * @file activity2.h
+ * @file activity3.h
  * @author Sivani Reddy
  * @brief 
  * @version 0.1
@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#ifndef __ACTIVITY2_H__
-#define __ACTIVITY2_H__
+#ifndef __ACTIVITY3_H__
+#define __ACTIVITY3_H__
 #include<avr/io.h>
 
 /**
@@ -18,8 +18,7 @@
  * @param ch 
  * @return uint16_t 
  */
-uint16_t ReadADC(uint8_t ch);
-void InitADC();
+void InitP();
 #endif
 /**
  * @brief end
