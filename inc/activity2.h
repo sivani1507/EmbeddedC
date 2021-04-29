@@ -8,10 +8,10 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include<avr/io.h>
-#include<util/delay.h>
 #ifndef __ACTIVITY2_H__
 #define __ACTIVITY2_H__
+#include<avr/io.h>
+#include<util/delay.h>
 /**
  * @brief Reading Analog values
  * 
