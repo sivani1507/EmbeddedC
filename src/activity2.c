@@ -9,7 +9,8 @@
  * 
  */
 #include <avr/io.h>
-#include "Read.h"
+#include "activity2.h"
+
 void InitADC()
 {
 
