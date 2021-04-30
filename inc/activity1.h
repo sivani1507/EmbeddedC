@@ -25,7 +25,7 @@
 #define LED_OFF	(0x00)			/**< LED state LOW */
 #define F_CPU 16000000UL        /**Clock Frequency of MCU is 16 Mhz*/
 #define LED_PORT (PORTB)
-#define LED_PIN (PORT B1)
+#define LED_PIN (PORTB1)
 #define LED_ON_TIME     (1000)  /**< LED ON time in milli seconds  */
 #define LED_OFF_TIME    (500)   /**< LED OFF time in milli seconds */
 #define sw1 !(PIND&(1<<PD1)) //Switch1 ON
