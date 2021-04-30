@@ -1,4 +1,5 @@
 # EmbeddedC
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b279db4a718a49d59e15b79ac639f1b5)](https://app.codacy.com/gh/sivani1507/EmbeddedC?utm_source=github.com&utm_medium=referral&utm_content=sivani1507/EmbeddedC&utm_campaign=Badge_Grade_Settings)
 ([![Cppcheck-actions](https://github.com/sivani1507/EmbeddedC/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/sivani1507/EmbeddedC/actions/workflows/cppcheck.yml)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/66b7a61fe86e48789597cb000828fd54)](https://www.codacy.com/gh/sivani1507/EmbeddedC/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sivani1507/EmbeddedC&amp;utm_campaign=Badge_Grade)
 ## Activity 1
