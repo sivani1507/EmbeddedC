@@ -9,6 +9,7 @@
  * 
  */
 #include<avr/io.h>
+#include<util/delay.h>
 #include "activity4.h"
 /**
  * @brief Initialization

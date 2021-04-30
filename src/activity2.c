@@ -8,9 +8,9 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include <avr/io.h>
 #include "activity2.h"
-
+#include <avr/io.h>
+#include<util/delay.h>
 void InitADC()
 {
 

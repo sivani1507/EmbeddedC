@@ -22,6 +22,7 @@
  * 
  */
 #include<avr/io.h>
+#include<util/delay.h>
 #include "activity3.h"
 /**
  * @brief Initialization

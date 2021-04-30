@@ -8,9 +8,9 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include<avr/io.h>
 #include "activity1.h"
-
+#include<avr/io.h>
+#include<util/delay.h>
 /**
  * @brief Led change state
  * 
@@ -18,5 +18,5 @@
  */
 void led(uint8_t st)
 {
-    LED_PORT=(st<<LED_PIN);
+    LED_PORT=(st << LED_PIN);
 }
