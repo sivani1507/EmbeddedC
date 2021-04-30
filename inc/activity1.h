@@ -15,7 +15,7 @@
  * 
  */
 #include<avr/io.h>
-
+#include<util/delay.h>
 #include "activity1.h"
 /**
  * @brief Macro definitions
@@ -23,7 +23,6 @@
  */
 #define LED_ON 	(0x01)			/**< LED state HIGH */
 #define LED_OFF	(0x00)			/**< LED state LOW */
-#define F_CPU 16000000UL        /**Clock Frequency of MCU is 16 Mhz*/
 #define LED_PORT (PORTB)
 #define LED_PIN (PORTB1)
 #define LED_ON_TIME     (1000)  /**< LED ON time in milli seconds  */
